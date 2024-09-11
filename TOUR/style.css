@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación sobre JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        main {
+            padding: 2em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        h2 {
+            color: #333;
+        }
+        .code {
+            background-color: #eee;
+            padding: 1em;
+            border-radius: 5px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Presentación sobre JavaScript</h1>
+</header>
+
+<main>
+    <section>
+        <h2>Introducción</h2>
+        <p>JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.</p>
+    </section>
+
+    <section>
+        <h2>Historia</h2>
+        <p>JavaScript fue desarrollado originalmente por Brendan Eich de Netscape Communications Corporation, y se lanzó en 1995. Inicialmente se llamó Mocha, luego se renombró a LiveScript, y finalmente a JavaScript.</p>
+    </section>
+
+    <section>
+        <h2>Características</h2>
+        <ul>
+            <li>Lenguaje basado en prototipos</li>
+            <li>Orientado a objetos</li>
+            <li>Soporte para funciones de primera clase</li>
+            <li>Débilmente tipado</li>
+            <li>Event-driven</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Ejemplo de código</h2>
+        <p>A continuación, un ejemplo simple de JavaScript que muestra un mensaje en la consola:</p>
+        <div class="code">
+            <pre>
+<code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Ejemplo JavaScript&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;script&gt;
+        console.log('Hola, JavaScript!');
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+            </pre>
+        </div>
+    </section>
+
+    <section>
+        <h2>Conclusión</h2>
+        <p>JavaScript es una herramienta poderosa para el desarrollo web, permitiendo crear experiencias interactivas y dinámicas. Su continuo desarrollo y la comunidad activa aseguran que siga siendo relevante y útil en el futuro.</p>
+    </section>
+</main>
+
+</body>
+</html>

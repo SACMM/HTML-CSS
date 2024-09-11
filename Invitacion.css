@@ -1,0 +1,45 @@
+body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f2e6ff;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+        }
+
+        #inviteButton {
+            padding: 10px 20px;
+            font-size: 20px;
+            color: black;
+            background-color:red;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #message {
+            display: none;
+            font-size: 24px;
+            color: black;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .confetti {
+            position: fixed;
+            top: -10px;
+            width: 10px;
+            height: 10px;
+            background-color: red;
+            opacity: 0.6;
+            border-radius: 50%;
+            animation: confetti-animation 3s linear infinite;
+        }
+
+        @keyframes confetti-animation {
+            0% { transform: translateY(0) rotate(0deg); opacity: 0.6; }
+            100% { transform: translateY(1000px) rotate(360deg); opacity: 0; }
+        }

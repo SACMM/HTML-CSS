@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invitación a Cena</title>
+    <link rel="stylesheet" href="Invitacion.css">
+    <link rel="Icon" href="R.png">
+</head>
+<body>
+    <button id="inviteButton">Lo abres?</button>
+    <div id="message">
+        <p>Te invito a un kebab &lt;3</p>
+    </div>
+
+    <script>
+        document.getElementById("inviteButton").addEventListener("click", function() {
+            document.getElementById("message").style.display = "block";
+            document.getElementById("inviteButton").style.display = "none";
+            startConfetti();
+        });
+
+        function startConfetti() {
+            for (let i = 0; i < 300; i++) {
+                const confetti = document.createElement('div');
+                confetti.classList.add('confetti');
+                confetti.style.left = Math.random() * window.innerWidth + 'px';
+                confetti.style.animationDuration = 2 + Math.random() * 3 + 's';
+                confetti.style.animationDelay = Math.random() * 2 + 's';
+                document.body.appendChild(confetti);
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+ body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+            background-image: url('https://images8.alphacoders.com/115/thumb-1920-1150944.jpg');
+            background-repeat: no-repeat;
+        }
+        header {
+            background-color: rgb(255, 0, 0);
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            text-align: center;
+            color: black;
+        }
+        main {
+            padding: 20px;
+            padding-top: 80px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 24px;
+            margin-top: 30px;
+            color: rgb(255, 255, 255);
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            color:  rgb(0, 0, 0);
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: end;
+        }
+        .feature {
+            flex-basis: calc(33% - 10px);
+            margin-bottom: 30px;
+        }
+        
+        .id {
+            background-color: orange;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgb(0, 0, 0);
+        }
+        .id h3 {
+            font-size: 20px;
+            margin-top: 0;
+        }
+        .id p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: rgb(0, 0, 0);
+        }
+        .gallery {
+            display: flex;
+            overflow-x: auto;
+            margin-bottom: 30px;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin-right: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .contact {
+            background-color: #f44336;
+            padding: 20px;
+            border-radius: 5px;
+            color: #ff0000;
+            text-align: center;
+            margin-bottom: 30px;x
+        }
+        .contact h2 {
+            font-size: 24px;
+            margin-top: 0;
+            color: #ff0000;
+        }
+        .contact form input[type="text"], .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color:    #944a4a;
+            color: #ff9c9c;
+            font-size: 16px;
+            box-shadow: 0 2px 5px rgba(255, 0, 0, 0.1);
+        }
+        .contact form button {
+            background-color: #black;
+            color: #f44336;
+            padding: 1
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .contact form button:hover {
+            background-color: #00ff80;
+        }
